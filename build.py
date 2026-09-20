@@ -24,13 +24,13 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} · Bracket Maker</title>
     <meta name="description" content="{description}" />
-    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="page-header">
-      <a class="brand" href="/">
-        <img class="brand-mark" src="/icon.svg" width="28" height="28" alt="" />
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="icon.svg" width="28" height="28" alt="" />
         <span>Bracket Maker</span>
       </a>
     </header>
@@ -38,9 +38,9 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 {content}
     </main>
     <footer class="page-footer">
-      <a href="/privacy">Privacy Policy</a>
-      <a href="/terms">Terms of Use</a>
-      <a href="/">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="index.html">Home</a>
     </footer>
   </body>
 </html>

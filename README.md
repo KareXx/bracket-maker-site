@@ -34,10 +34,9 @@ python3 build.py
 
 ## Local preview
 
-```bash
-python3 -m http.server 4000
-# http://localhost:4000/privacy.html
-```
+Open `index.html` in a browser — the pages use relative paths, so they work from the file system
+as well as from a server. `cleanUrls` in `vercel.json` makes the published `/privacy` and `/terms`
+addresses work too; `privacy.html` keeps working and redirects to them.
 
 ## Deploy to Vercel
 
