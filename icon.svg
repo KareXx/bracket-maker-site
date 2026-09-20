@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 2000 2000">
+  <style>
+    .mark { stroke: #BD7300; fill: none; }
+    .mark-fill { fill: #BD7300; }
+    @media (prefers-color-scheme: dark) {
+      .mark { stroke: #2ED6A6; }
+      .mark-fill { fill: #2ED6A6; }
+    }
+  </style>
+  <g transform="translate(9 35)" class="mark" stroke-width="70" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M353 520 H705 V810 H353"/>
+    <path d="M353 1120 H705 V1410 H353"/>
+    <path d="M705 665 H1077 V1265 H705"/>
+    <path d="M1077 965 H1250"/>
+    <path class="mark-fill" d="M1498 820 L1643 965 L1498 1110 L1353 965 Z" stroke-width="40"/>
+  </g>
+</svg>
