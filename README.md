@@ -1,4 +1,4 @@
-# Bracket Maker — public site
+# Bracket Maker: Tourney Builder — public site
 
 Static pages required by App Store Connect: the privacy policy, the terms of use (EULA) and a
 support page. No build step, no dependencies — Vercel serves the files as they are.

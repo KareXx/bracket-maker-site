@@ -22,7 +22,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} · Bracket Maker</title>
+    <title>{title} · Bracket Maker: Tourney Builder</title>
     <meta name="description" content="{description}" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
@@ -31,7 +31,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     <header class="page-header">
       <a class="brand" href="index.html">
         <img class="brand-mark" src="icon.svg" width="28" height="28" alt="" />
-        <span>Bracket Maker</span>
+        <span>Bracket Maker: Tourney Builder</span>
       </a>
     </header>
     <main>
@@ -111,7 +111,7 @@ def main() -> None:
         markdown = (LEGAL_DIR / source_name).read_text(encoding="utf-8")
         page = PAGE_TEMPLATE.format(
             title=title,
-            description=f"{title} for the Bracket Maker tournament bracket app.",
+            description=f"{title} for the Bracket Maker: Tourney Builder tournament bracket app.",
             content=render_markdown(markdown),
         )
         (SITE_DIR / output_name).write_text(page, encoding="utf-8")
