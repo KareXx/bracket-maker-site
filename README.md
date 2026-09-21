@@ -43,17 +43,17 @@ addresses work too; `privacy.html` keeps working and redirects to them.
 1. Create a GitHub repository and push this folder.
 2. On vercel.com: **Add New… → Project → Import** this repository.
 3. Framework preset **Other**, root directory `./`, no build command.
-4. **Deploy.** Name the Vercel project `bracket-maker` so the URLs read well.
+4. **Deploy.** Every push to `main` redeploys the site.
 
-The URLs for App Store Connect:
+The site is live at https://bracket-maker-tau.vercel.app. The URLs for App Store Connect:
 
-- Privacy Policy URL — `https://bracket-maker.vercel.app/privacy`
-- Terms of Use (EULA) — `https://bracket-maker.vercel.app/terms`
-- Support URL — `https://bracket-maker.vercel.app/`
+- Privacy Policy URL — `https://bracket-maker-tau.vercel.app/privacy`
+- Terms of Use (EULA) — `https://bracket-maker-tau.vercel.app/terms`
+- Support URL — `https://bracket-maker-tau.vercel.app/`
 
 Put the first two into the app's `.env` as well, so the paywall links to them:
 
 ```
-EXPO_PUBLIC_PRIVACY_URL=https://bracket-maker.vercel.app/privacy
-EXPO_PUBLIC_TERMS_URL=https://bracket-maker.vercel.app/terms
+EXPO_PUBLIC_PRIVACY_URL=https://bracket-maker-tau.vercel.app/privacy
+EXPO_PUBLIC_TERMS_URL=https://bracket-maker-tau.vercel.app/terms
 ```
